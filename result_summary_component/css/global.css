@@ -59,7 +59,7 @@ main{
   border-bottom-left-radius: var(--_br);
   padding: 2.375rem 3.75rem 3.375rem;
 }
-.score h2 {
+.score h1 {
   font-size: 1.5rem;
   color: var(--colour-Light-lavender);
   font-weight: bold;
