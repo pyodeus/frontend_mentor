@@ -39,7 +39,6 @@ body {
   font-family: Hanken;
   display: grid;
   height: 100vh;
-  background-color: var(--colour-Pale-blue);
 }
 
 .main-wrapper {
