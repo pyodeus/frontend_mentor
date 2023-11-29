@@ -102,6 +102,7 @@ body {
   padding: 2.25rem 1.875rem;
   display: grid;
   align-content: center;
+  background-color: #fff;
 }
 .summary h2 {
   font-size: 1.1rem;
