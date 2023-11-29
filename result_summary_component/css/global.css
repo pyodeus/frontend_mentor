@@ -45,18 +45,17 @@ body {
 .main-wrapper {
   max-width: 612px;
   margin: auto;
+  --_br: 1.75rem;
+  overflow: hidden;
+  background-color: #fff;
 }
 
 .score {
-  _--br: 1.75rem;
   text-align: center;
-  background-color: red;
-  /* --colour-Light-slate-blue: hsl(252, 100%, 67%); */
-  /* --colour-Light-royal-blue: hsl(241, 81%, 54%); */
   background-image: linear-gradient(to bottom, var(--colour-Light-slate-blue), var(--colour-Light-royal-blue));
   color: var(--colour-White);
-  border-bottom-right-radius: var(_--br);
-  border-bottom-left-radius: var(_--br);
+  border-bottom-right-radius: var(--_br);
+  border-bottom-left-radius: var(--_br);
   padding: 2.68rem 3.25rem 4.6rem;
 }
 .score h2 {
@@ -102,7 +101,6 @@ body {
   padding: 2.25rem 1.875rem;
   display: grid;
   align-content: center;
-  background-color: #fff;
 }
 .summary h2 {
   font-size: 1.1rem;
@@ -165,9 +163,13 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     box-shadow: 20px 20px 32px 0px rgba(0, 0, 0, .1);
+    border-top-left-radius: var(--_br);
+    border-bottom-left-radius: var(--_br);
   }
   .score {
-    border-radius: 30px;
+    border-radius: 0;
+    border-top-right-radius: var(--_br);
+    border-bottom-right-radius: var(--_br);
   }
 }
 
