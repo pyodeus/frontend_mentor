@@ -39,24 +39,25 @@ body {
   font-family: Hanken;
   display: grid;
   height: 100vh;
+  background-color: var(--colour-Pale-blue);
 }
 
 .main-wrapper {
   max-width: 612px;
   margin: auto;
-  background-image: transparent;
 }
 
 .score {
+  _--br: 1.75rem;
   text-align: center;
   background-color: red;
   /* --colour-Light-slate-blue: hsl(252, 100%, 67%); */
   /* --colour-Light-royal-blue: hsl(241, 81%, 54%); */
   background-image: linear-gradient(to bottom, var(--colour-Light-slate-blue), var(--colour-Light-royal-blue));
   color: var(--colour-White);
-  border-bottom-right-radius: 30px;
-  border-bottom-left-radius: 30px;
-  padding: 40px 50px;
+  border-bottom-right-radius: var(_--br);
+  border-bottom-left-radius: var(_--br);
+  padding: 2.68rem 3.25rem 4.6rem;
 }
 .score h2 {
   font-size: 1.1rem;
@@ -77,28 +78,30 @@ body {
   margin-bottom: 1.5rem;
 }
 .score--circle span {
-  font-size: 3.3rem;
-  font-weight: bold;
-  margin-bottom: 1rem;;
-}
-.score--circle p {
-  position: absolute;
-  bottom: 1rem;
-  font-weight: bold;
-  color: var(--colour-Light-slate-blue);
-}
-.score  h3 {
-  font-size: 1.4rem;
+  font-size: 3.25rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
+.score--circle p {
+  position: absolute;
+  bottom: 1.125rem;
+  font-weight: bold;
+  color: var(--colour-Light-slate-blue);
+}
+.score h3 {
+  font-size: 1.31rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
 .score > p {
   color: var(--colour-Light-lavender);
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .summary {
-  padding: 30px;
+  padding: 2.25rem 1.875rem;
+  display: grid;
+  align-content: center;
 }
 .summary h2 {
   font-size: 1.1rem;
@@ -114,7 +117,10 @@ body {
   padding: 1rem;
   border-radius: 1rem;
   font-weight: 600;
-  gap: 1rem
+  gap: 1rem;
+}
+.summary--count img {
+  width: 1.5rem;
 }
 .summary--count section span {
   margin-left: auto;
@@ -152,17 +158,16 @@ body {
 }
 @media (min-width: 600px) {
   body {
-    background-color: var(--colour-Pale-blue);
+    /* background-color: var(--colour-Pale-blue); */
   }
   .main-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    box-shadow: 12px 28px 32px 0px rgba(0, 0, 0, .1);
+    box-shadow: 20px 20px 32px 0px rgba(0, 0, 0, .1);
   }
   .score {
     border-radius: 30px;
   }
-
 }
 
 
