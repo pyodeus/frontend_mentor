@@ -89,7 +89,7 @@ main{
   color: var(--colour-Light-slate-blue);
   font-size: 1.125rem;
 }
-.score h3 {
+.score h2 {
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 1rem;
