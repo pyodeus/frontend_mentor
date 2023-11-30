@@ -24,7 +24,7 @@ Desktop: 1440px
 
 @font-face {
   font-family: "Fraunces";
-  src: url("../assets/fonts/Fraunces/static/Fraunces_72pt-Bold.ttf");
+  src: url("../assets/fonts/Fraunces/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf");
 }
 @font-face {
   font-family: "Montserrat";
@@ -62,8 +62,7 @@ main {
   font-size: 32px;
   font-family: Fraunces;
   line-height: 1.0;
-  letter-spacing: 0.3px;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--colour-Very-dark-blue);
   margin-bottom: 16px;
 }
@@ -84,7 +83,6 @@ main {
   font-family: Fraunces;
   font-weight: 600;
   color: var(--colour-Dark-cyan);
-  letter-spacing: 0.1px;
 }
 .details--price__real {
   font-size: 13px;
@@ -107,7 +105,7 @@ main {
   font-size: 14px;
 }
 
-@media (max-width: 599px) {
+@media (max-width: 719px) {
 .details--add-to-cart {
     margin-left: 1px;
   }
@@ -115,7 +113,7 @@ main {
     margin-right: 1px;
   }
 }
-@media (min-width: 600px) {
+@media (min-width: 720px) {
   main {
     max-width: 600px;
     flex-direction: row;
