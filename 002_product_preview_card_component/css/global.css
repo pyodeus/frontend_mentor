@@ -43,7 +43,7 @@ main {
   row-gap: 24px;
   background-color: #fff;
   font-family: Montserrat;
-  border-radius: 1rem;
+  border-radius: 10px;
   overflow: hidden;
 }
 .details {
