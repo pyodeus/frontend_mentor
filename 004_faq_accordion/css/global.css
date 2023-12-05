@@ -36,8 +36,7 @@ body {
   z-index: -1;
   left: 0;
   right: 0;
-  top: -72px;
-  display: none;
+  top: 0;
 }
 .bg img {
   width: 100%;
