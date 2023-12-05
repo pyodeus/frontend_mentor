@@ -82,6 +82,7 @@ main {
 }
 .article--header {
   display: flex;
+  column-gap: 1.6rem;
   font-weight: 600;
   font-size: 16px;
   align-items: center;
@@ -146,6 +147,7 @@ main {
   }
   .article--header {
     font-size: 18px;
+    column-gap: 0;
   }
   .article--content {
     font-size: 16px;
