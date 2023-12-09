@@ -16,7 +16,7 @@ Weights: 500, 700, 900
 }
 @font-face {
   font-family: RedHat;
-  src: url('../assets/fonts/RedHatDisplay-VariableFont_wght.ttf')
+  src: url('../fonts/RedHatDisplay-VariableFont_wght.ttf')
 }
 
 body {
@@ -97,21 +97,21 @@ main picture img {
   background-color: white;
   gap: 9px;
 }
+.main--button button {
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  font-weight: 700;
+  cursor: pointer;
+}
 .main--button__proceed {
   background-color: var(--clr-Bright-blue);
   padding-block: 15px;
   color: var(--clr-Very-pale-blue);
-  font-weight: 700;
-  font-size: 15px;
-  letter-spacing: 0.3px;
   border-radius: 10px;
   box-shadow: 0px 19px 21px 0px hsl(245, 75%, 52%, .2);
 }
 .main--button__cancel {
   padding-block: 15px 24px;
-  font-size: 15px;
-  font-weight: 700;
-  letter-spacing: 0.3px;
   color: var(--clr-Desaturated-blue);
 }
 
