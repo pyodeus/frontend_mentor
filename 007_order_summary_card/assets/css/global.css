@@ -92,6 +92,7 @@ main picture img {
 }
 .content--pricing a:hover {
   color: #766cf1;
+  text-decoration: none;
 }
 
 .main--button {
