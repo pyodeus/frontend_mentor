@@ -88,6 +88,10 @@ main picture img {
   font-weight: 500;
   text-decoration: underline;
   text-underline-offset: 1px;
+  color: var(--clr-Bright-blue);
+}
+.content--pricing a:hover {
+  color: #766cf1;
 }
 
 .main--button {
@@ -110,9 +114,15 @@ main picture img {
   border-radius: 10px;
   box-shadow: 0px 19px 21px 0px hsl(245, 75%, 52%, .2);
 }
+.main--button__proceed:hover {
+  background-color: #766cf1;
+}
 .main--button__cancel {
   padding-block: 15px 24px;
   color: var(--clr-Desaturated-blue);
+}
+.main--button__cancel:hover {
+  color: var(--clr-Dark-blue);
 }
 
 @media (min-width: 600px) {
