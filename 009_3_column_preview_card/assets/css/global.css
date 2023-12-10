@@ -48,6 +48,7 @@ body {
   padding: 1.6rem;
   display: grid;
   place-content: center;
+  background-color: var(--clr-Very-light-gray);
 }
 main {
   display: grid;
