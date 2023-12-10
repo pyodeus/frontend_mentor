@@ -31,7 +31,7 @@
 body {
   width: 100dvw;
   height: 100dvh;
-  padding-inline: 1.5rem;
+  padding: 1.5rem;
   font-family: Inter;
   display: grid;
   place-content: center;
