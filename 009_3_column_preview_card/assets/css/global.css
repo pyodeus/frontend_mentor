@@ -90,6 +90,11 @@ main {
   border-radius: 2em;
   display: block;
 }
+aside {
+  position: absolute;
+  inset: auto 0 5rem 0;
+  text-align: center;
+}
 
 @media (min-width: 800px) {
   main {
