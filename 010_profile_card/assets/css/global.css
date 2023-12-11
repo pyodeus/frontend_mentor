@@ -34,7 +34,10 @@ body {
   padding-inline: 1.55rem 1.52rem;
   display: grid;
   place-content: center;
-  background-color: var(--clr-Dark-cyan);
+  background:
+    url('../images/bg-pattern-top.svg') no-repeat right 52vw bottom 35vh,
+    url('../images/bg-pattern-top.svg') no-repeat left 48vw top 52vh,
+    var(--clr-Dark-cyan) 
 }
 main {
   width: min(350px, calc(100dvw - 3rem));
