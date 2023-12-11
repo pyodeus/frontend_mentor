@@ -46,7 +46,6 @@ body {
 main {
   padding-block: 1.15rem;
   display: grid;
-  place-items: center;
 }
 .content {
   text-align: center;
@@ -67,6 +66,9 @@ main {
   color: var(--clr-Dark-Grayish-Magenta)
 }
 .rating {
+  margin-bottom: 2rem;
+  width: min(100%, 50ch);
+  margin-inline: auto;
   margin-bottom: 2rem;
 }
 .rating figure {
@@ -95,8 +97,10 @@ main {
   padding-inline: 2rem;
   color: white;
   background-color: var(--clr-Very-Dark-Magenta);
-  margin-bottom: 1rem;
   border-radius: 0.5rem;
+  width: min(100%, 50ch);
+  margin-inline: auto;
+  margin-bottom: 1rem;
 }
 
 .profile--container {
@@ -124,7 +128,7 @@ main {
   letter-spacing: -0.16px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1080px) {
   body {
     padding-block: 1rem;
   }
@@ -147,6 +151,7 @@ main {
     margin-bottom: 1.6rem;
   }
   .rating {
+    width: 100%;
     margin: 0;
     display: grid;
     align-content: end;
