@@ -36,7 +36,7 @@ body {
   place-content: center;
   background:
     url('../images/bg-pattern-top.svg') no-repeat right 52vw bottom 35vh,
-    url('../images/bg-pattern-top.svg') no-repeat left 48vw top 52vh,
+    url('../images/bg-pattern-bottom.svg') no-repeat left 48vw top 52vh,
     var(--clr-Dark-cyan) 
 }
 main {
@@ -46,6 +46,7 @@ main {
   overflow: hidden;
   border-radius: 13px;
   background: #fff url('../images/bg-pattern-card.svg') no-repeat top center;
+  box-shadow: 0px 16px 20px 8px rgba(0, 0, 0, .1);
 }
 .profile {
   padding-top: 5.4rem;
