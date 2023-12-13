@@ -72,6 +72,10 @@ main {
   color: var(--clr-Violet);
   box-shadow: 0px 8px 8px 4px rgba(0, 0, 0, .2);
 }
+.content a:hover {
+  background-color: var(--clr-Soft-Magenta);
+  color: #fff;
+}
 
 footer {
   max-width: 1440px;
@@ -91,6 +95,10 @@ footer i.fa-brands {
   width: 2.3em;
   aspect-ratio: 1;
   cursor: pointer;
+}
+footer i.fa-brands:hover {
+  color: var(--clr-Soft-Magenta);
+  border-color: var(--clr-Soft-Magenta);
 }
 
 @media (width > 720px) {
