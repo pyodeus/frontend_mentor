@@ -44,6 +44,12 @@ body {
 main.done .signup--wrapper {
   display: none;
 }
+.hero img {
+  transition: .5s;
+}
+.hero.on img {
+  background-image: linear-gradient(to bottom, hsl(-14, 100%, 66%), var(--clr-Tomato));
+}
 
 .signup {
   padding: 2.25rem 1.5rem;
@@ -79,7 +85,6 @@ form {
   display: grid;
 }
 .form--label {
-  margin-bottom: 0.65rem;
   display: flex;
 }
 .form--label {
@@ -180,9 +185,6 @@ main:not(.done) .complete--wrapper {
   }
   main picture {
     padding: 24px;
-  }
-  main picture img {
-    background-image: linear-gradient(to bottom, hsl(-14, 100%, 66%), var(--clr-Tomato));
   }
   .signup {
     padding-block: 5.8rem;

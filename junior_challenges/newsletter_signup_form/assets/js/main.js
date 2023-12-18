@@ -1,8 +1,17 @@
 const main = document.querySelector('main');
 const form = document.querySelector('form');
 const input = form.querySelector('input');
+const submitBtn = form.querySelector('[type="submit"]');
 const backBtn = document.querySelector('.complete--wrapper button');
+const hero = document.querySelector('.hero');
 const reg = /.@.+(\.).+[^.]$/;
+
+submitBtn.addEventListener('mouseover', () => {
+  hero.classList.add('on');
+});
+submitBtn.addEventListener('mouseleave', () => {
+  hero.classList.remove('on');
+});
 
 form.addEventListener('submit', (ev) => {
   ev.preventDefault();
