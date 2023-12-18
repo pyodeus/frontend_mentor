@@ -61,10 +61,12 @@ main h1 {
   font-size: 2.5rem;
   font-family: var(--f-bold);
   margin-bottom: 1.2rem;
+  color: var(--clr-Charcoal-Grey);
 }
 main p {
   line-height: 1.5rem;
   margin-bottom: 1.5rem;
+  color: var(--clr-Charcoal-Grey);
 }
 .signup ul {
   list-style: none;
@@ -76,6 +78,7 @@ main p {
   align-items: flex-start;
   gap: 1rem;
   margin-bottom: 0.65rem;
+  color: var(--clr-Charcoal-Grey);
 }
 .signup li img {
   margin-top: 2px;
