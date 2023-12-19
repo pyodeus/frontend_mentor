@@ -4,6 +4,7 @@ const input = form.querySelector('input');
 const submitBtn = form.querySelector('[type="submit"]');
 const backBtn = document.querySelector('.complete--wrapper button');
 const hero = document.querySelector('.hero');
+const emailTarget = document.querySelector('.complete--wrapper b');
 const reg = /.@.+(\.).+[^.]$/;
 
 submitBtn.addEventListener('mouseover', () => {
@@ -20,6 +21,7 @@ form.addEventListener('submit', (ev) => {
   if (isValid) {
     main.classList.add('done');
     form.classList.remove('hold');
+    emailTarget.textContent = input.value;
     input.value = '';
   } else form.classList.add('hold');
 });
