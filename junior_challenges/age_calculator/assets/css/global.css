@@ -39,7 +39,6 @@ Weights: 400i, 700, 800i
 
 
 body {
-  width: 100vw;
   min-height: 100vh;
   padding: 5.5rem 1rem;
   display: grid;
@@ -137,7 +136,7 @@ label.err {
 [class^='result--'] {
   color: var(--clr-Purple);
 }
-@media (width > 800px) {
+@media (width > 720px) {
   body {
     place-content: center;
   }
