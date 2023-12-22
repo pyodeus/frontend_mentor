@@ -40,7 +40,7 @@ Weights: 400i, 700, 800i
 
 body {
   min-height: 100vh;
-  padding: 5.5rem 1rem;
+  padding: 5.5rem 1rem 0rem;
   display: grid;
   grid-template-columns: 1fr;
   place-content: start center;
@@ -139,6 +139,7 @@ label.err {
 @media (width > 720px) {
   body {
     place-content: center;
+    padding: 0rem 1rem;
   }
   main {
     padding: 3.5rem 3.5rem 3.4rem;
