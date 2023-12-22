@@ -65,7 +65,7 @@ form {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
   max-width: 34rem;
-  align-items: start;
+  place-items: start center;
 }
 label {
   display: grid;
@@ -107,14 +107,11 @@ label.err {
   --_err: var(--clr-Light-red);
 }
 
-
 [type='submit'] {
   position: absolute;
   background-color: var(--clr-Purple);
-  margin-inline: auto;
-  inset: auto 0 0 0;
+  bottom: 0;
   transform: translateY(50%);
-  padding: 1.2rem;
   border-radius: 10rem;
   padding: 1.55rem;
   aspect-ratio: 1;
@@ -169,7 +166,7 @@ label.err {
     border-radius: 0.25em;
   }
   [type='submit'] {
-    left: auto;
+    right: 0;
   }
   [type='submit'] img {
     max-width: none;
