@@ -57,10 +57,16 @@ const isEmpty = () => {
 };
 
 const calcAge = () => {
-  const [day, month, year] = inputs.map(({ value }) => Number(value));
+  const currentDate = new Date();
+  const [day, month, tempYear] = inputs.map(({ value }) => Number(value));
+  const year = (tempYear < 100)
+    ? (tempYear + 2000 <= currentDate.getFullYear() ? tempYear + 2000 : tempYear + 1900)
+    : tempYear;
+  inputs[2].value = year;
+
   if (isValid(day, month, year)) {
     const date = new Date(`${year}-${month}-${day}`);
-    const test = new Date().getTime() - date.getTime();
+    const test = currentDate.getTime() - date.getTime();
 
     if (test >= 0) {
       const hai = new Date(test);
