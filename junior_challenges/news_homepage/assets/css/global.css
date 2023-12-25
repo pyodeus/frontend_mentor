@@ -81,6 +81,7 @@ article h1 {
 article p {
   line-height: 1.74;
   margin-bottom: 1.5rem;
+  color: var(--clr-Dark-grayish-blue);
 }
 article > a {
   padding: 0.9em 2.15em;
