@@ -106,6 +106,7 @@ const getData = (element) => {
     const commentImg = document.createElement('img');
     commentImg.className = 'comment-img';
     commentImg.src = element.data;
+    commentImg.alt = 'comment img';
     res.push(commentImg);
   } else if (element.do === 'leftGroup') {
     what.textContent = 'left the group';
