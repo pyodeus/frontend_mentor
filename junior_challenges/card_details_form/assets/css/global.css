@@ -162,8 +162,7 @@ main.done .form {
   display: none;
 }
 .completed {
-  width: 33.7rem;
-  padding: 7.45rem 4rem 0rem 6rem;
+  padding: 0rem 1rem;
   text-align: center;
   color: var(--clr-Dark-grayish-violet);
 }
@@ -187,6 +186,8 @@ main.done .form {
   color: var(--clr-White);
   border-radius: 0.6rem;
   cursor: pointer;
+  max-width: 25rem;
+  margin-inline: auto;
 }
 
 @media (min-width: 920px) {
@@ -250,5 +251,9 @@ main.done .form {
     margin-bottom: 0.85rem;
     gap: 1.25rem;
     grid-template-columns: 0.89fr 1fr;
+  }
+  .completed {
+    padding: 7.45rem 4rem 0rem 6rem;
+    width: 33.7rem;
   }
 }
